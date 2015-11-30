@@ -70,7 +70,10 @@ public class LoginServlet extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);
 		} 
+
 		System.out.println("123456666987777777111asdfsdf");
+
+
 		
 		
 //		System.out.println(new String(cb.getPassword()));
