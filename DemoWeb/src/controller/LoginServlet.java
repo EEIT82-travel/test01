@@ -17,7 +17,10 @@ import model.CustomerBean;
 import model.CustomerService;
 import model.dao.CustomerDAOJndi;
 
-@WebServlet("/secure/login.controller224442")
+
+@WebServlet("/secure/login.controller123")
+
+
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -65,7 +68,7 @@ public class LoginServlet extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);
 		} 
-		
+		System.out.println("123");
 		
 		
 //		System.out.println(new String(cb.getPassword()));
