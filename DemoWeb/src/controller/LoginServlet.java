@@ -17,7 +17,7 @@ import model.CustomerBean;
 import model.CustomerService;
 import model.dao.CustomerDAOJndi;
 
-@WebServlet("/secure/login.controller")
+@WebServlet("/secure/login.controller222")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -30,6 +30,7 @@ public class LoginServlet extends HttpServlet {
 	}
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
+		System.out.println("111");
 		HttpSession session = request.getSession();
 		List<String> erroMsg = new ArrayList<String>();
 		request.setAttribute("ErroMsgKey", erroMsg);
