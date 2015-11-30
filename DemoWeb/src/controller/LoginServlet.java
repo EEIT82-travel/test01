@@ -18,7 +18,9 @@ import model.CustomerService;
 import model.dao.CustomerDAOJndi;
 
 
+
 @WebServlet("/secure/login.controller1234567888888")
+
 
 
 public class LoginServlet extends HttpServlet {
@@ -33,7 +35,7 @@ public class LoginServlet extends HttpServlet {
 	}
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		System.out.println("111222");
+		System.out.println("1112256462");
 		HttpSession session = request.getSession();
 		List<String> erroMsg = new ArrayList<String>();
 		request.setAttribute("ErroMsgKey", erroMsg);
