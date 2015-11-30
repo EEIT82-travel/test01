@@ -35,7 +35,7 @@ public class LoginServlet extends HttpServlet {
 	}
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		System.out.println("1112256462");
+		System.out.println("1112256462654");
 		HttpSession session = request.getSession();
 		List<String> erroMsg = new ArrayList<String>();
 		request.setAttribute("ErroMsgKey", erroMsg);
