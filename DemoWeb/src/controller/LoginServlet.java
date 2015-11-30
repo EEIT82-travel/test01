@@ -19,7 +19,7 @@ import model.dao.CustomerDAOJndi;
 
 
 
-@WebServlet("/secure/login.controller1234569877777gggg")
+@WebServlet("/secure/login.controller1234569877777ggggaaaa")
 
 
 
@@ -35,7 +35,7 @@ public class LoginServlet extends HttpServlet {
 	}
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		System.out.println("1112256462654");
+		System.out.println("1112256462654aaaaa");
 		HttpSession session = request.getSession();
 		List<String> erroMsg = new ArrayList<String>();
 		request.setAttribute("ErroMsgKey", erroMsg);
@@ -70,7 +70,7 @@ public class LoginServlet extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);
 		} 
-		System.out.println("123456666987777777111qqqqq");
+		System.out.println("123456666987777777111qqqqqaaaaa");
 		
 		
 //		System.out.println(new String(cb.getPassword()));
