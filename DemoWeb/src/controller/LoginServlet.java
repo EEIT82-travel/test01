@@ -19,7 +19,7 @@ import model.dao.CustomerDAOJndi;
 
 
 
-@WebServlet("/secure/login.controller1234567888888")
+@WebServlet("/secure/login.controller123456788888811111")
 
 
 
@@ -70,7 +70,7 @@ public class LoginServlet extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
 			rd.forward(request, response);
 		} 
-		System.out.println("1234566667897999");
+		System.out.println("123456666789799911111");
 		
 		
 //		System.out.println(new String(cb.getPassword()));
