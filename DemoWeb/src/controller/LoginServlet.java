@@ -20,6 +20,7 @@ import model.dao.CustomerDAOJndi;
 
 @WebServlet("/secure/login.controller123456")
 
+
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -32,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 	}
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		System.out.println("111");
+		System.out.println("111222");
 		HttpSession session = request.getSession();
 		List<String> erroMsg = new ArrayList<String>();
 		request.setAttribute("ErroMsgKey", erroMsg);
